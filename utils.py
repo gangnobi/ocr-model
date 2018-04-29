@@ -1,4 +1,5 @@
 import tensorflow as tf
+import cv2
 
 def load_graph(model_file):
   graph = tf.Graph()
@@ -35,8 +36,8 @@ def read_tensor_from_imageb64(img_b64,input_height=224,
   return result
 
 
-def read_tensor_from_opencv(image_reader,input_height=224,
-                          input_width=224,
+def read_tensor_from_opencv(image_reader,input_height=128,
+                          input_width=128,
                           input_mean=128,
                           input_std=128):
   float_caster = tf.cast(image_reader, tf.float32)
