@@ -1,0 +1,3 @@
+INFO:tensorflow:2018-04-29 16:20:51.946153: Step 3999: Train accuracy = 99.0%
+INFO:tensorflow:2018-04-29 16:20:51.946275: Step 3999: Cross entropy = 0.067703
+INFO:tensorflow:2018-04-29 16:20:51.982335: Step 3999: Validation accuracy = 95.0% (N=100)
